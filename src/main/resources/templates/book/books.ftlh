@@ -45,7 +45,7 @@
                         </table>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <a class="btn pull-right" href="/books/create">Δημιουργεία Νέου</a>
+                            <a class="btn pull-right" href="/books/create">Create Book</a>
                         </div>
                     <#else>
                         <p>Δεν βρέθηκαν books</p>

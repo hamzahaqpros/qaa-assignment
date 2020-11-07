@@ -22,20 +22,20 @@
                     <input type="hidden" value="${bookForm.id}" name="id" id="id"/>
 
                     <div class="form-group">
-                        <label for="productCode">Τίτλος</label>
+                        <label for="productCode">Title</label>
                         <@spring.formInput path="bookForm.title" attributes="class='form-control'" />
                         <@spring.showErrors "bookForm.title", "error"/>
                     </div>
                     <div class="form-group">
-                        <label for="productName">Έτος</label>
+                        <label for="productName">Year</label>
                         <@spring.formInput path="bookForm.year" attributes="class='form-control'"/>
                         <@spring.showErrors "<br>"/>
                     </div>
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pull-right">
-                    <button type="submit" class="btn btn-success">Αποθήκευση</button>
-                    <button type="reset" id="btn-clear" class="btn btn-danger">Καθαρισμός</button>
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="reset" id="btn-clear" class="btn btn-danger">Clear</button>
                 </div>
             </form>
         </div>
